@@ -5,7 +5,7 @@ import cv2
 def main():
     """This program will create my avatar image."""
     if len(sys.argv) != 3:
-        print("Usage: python3", sys.argv[0], "<output.png> < size>")
+        print("Usage: python3", sys.argv[0], "<output.png> <size>")
         sys.exit(1)
     if getExtension(sys.argv[1]) != "png":
         print("Specify .png files.")
